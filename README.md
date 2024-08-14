@@ -80,7 +80,7 @@ CMD ["npm", "start"]
 ```
 
   - **Build the Docker Image:**
-    
+
       In your project directory, build the Docker image using the following command:
     
    ```
