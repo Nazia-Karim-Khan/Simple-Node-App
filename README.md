@@ -24,3 +24,29 @@ npm init -y
 ```
 npm install express
 ```
+- **Create the Application File:**
+
+Create a new file named app.js and add the following code:
+
+```
+const express = require('express');
+const app = express();
+const port = 3000;
+
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
+
+app.listen(port, () => {
+  console.log(`Server running at http://localhost:${port}/`);
+});
+```
+- **Run the Application:**
+
+Add a start script to your package.json file. Open package.json and modify the "scripts" section to include:
+
+```
+"scripts": {
+  "start": "node app.js"
+}
+```
