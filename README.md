@@ -86,9 +86,9 @@ app.listen(port, () => {
         docker build -t hello-world-app .
       ```
     
-     - **Run the Docker Container:**
+  - **Run the Docker Container:**
         
-      Once the image is built, run a container using the following command:
+    Once the image is built, run a container using the following command:
   
   ```
     docker run -p 3000:3000 hello-world-app
