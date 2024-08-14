@@ -8,7 +8,6 @@ This is a simple Node.js application that displays "Hello World". The applicatio
 
 
 <pre><p><em>You can clone the repository and run the application using:</em></p>
-
 <code>docker compose -f docker-compose.yaml up</code></pre>
 
 
