@@ -90,9 +90,9 @@ app.listen(port, () => {
         
     Once the image is built, run a container using the following command:
   
-  ```
-    docker run -p 3000:3000 hello-world-app
-  ```
+      ```
+        docker run -p 3000:3000 hello-world-app
+      ```
     
    - **Access the Application:**
 
@@ -114,9 +114,9 @@ app.listen(port, () => {
      
      Finally, push the image:
 
-    ```
-    docker push<user_name>/<new_image_name>:<new_version>
-    ```
+      ```
+      docker push<user_name>/<new_image_name>:<new_version>
+      ```
 
 
     
