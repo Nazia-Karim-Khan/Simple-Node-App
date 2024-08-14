@@ -14,6 +14,10 @@ You can clone the reposritory and run the application using:
 
     ```
 ```
+<p><em>You can clone the repository and run the application using:</em></p>
+
+<pre><code>docker compose -f docker-compose.yaml up</code></pre>
+
 
 
 ## Getting Started
