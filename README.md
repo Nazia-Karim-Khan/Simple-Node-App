@@ -8,10 +8,16 @@ This is a simple Node.js application that displays "Hello World". The applicatio
 
 ## Getting Started
 
-### Open a terminal and create a new directory for your project. Then, initialize a new Node.js project using npm:
+- **Initialize a New Node.js Project:**
+  Open a terminal and create a new directory for your project. Then, initialize a new Node.js project using npm:
 
 ```
 mkdir hello-world-app
 cd hello-world-app
 npm init -y
+```
+- **Install Express:**
+  Install the Express framework, which will help you set up a simple server:
+  ```
+  npm install express
 ```
