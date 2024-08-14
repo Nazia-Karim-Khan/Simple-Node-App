@@ -57,7 +57,7 @@ app.listen(port, () => {
   npm start
   ```
 
-## To Dockerize your Node.js application, follow these steps:
+## Dockerize Node.js application
   
   - **Write Dockerfile:**
 
@@ -97,3 +97,27 @@ app.listen(port, () => {
    - **Access the Application:**
 
      Open a web browser and navigate to http://localhost:3000. You should see "Hello, World!" displayed, just as you did before Dockerizing the application.
+
+     
+   - **Push the image:**
+
+      Login in DockerHub through terminal:
+      
+      ```
+      docker login
+      ```
+     Tag the image using:
+
+     ```
+     docker tag <local_image_name>:<version_of_local_image> \ <new_image_name>:<new_version>
+     ```
+     
+     Finally, push the image:
+
+    ```
+    docker push<user_name>/<new_image_name>:<new_version>
+    ```
+
+
+    
+
