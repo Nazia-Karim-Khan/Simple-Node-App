@@ -128,6 +128,19 @@ app.listen(port, () => {
 
   - Create a docker-compose.yaml file:
 
-  - Now anyone can get started with your image using a single command:
+    ```
+    version: '3.8'
+  
+    services:
+      node-app:
+        image: nazia141/node_repository:1.0
+        container_name: my-node-app-container
+        ports:
+          - "3000:3000"  
+        environment:
+          - NODE_ENV=production
     
-
+    ```
+    
+  - Now anyone can get started with your image using the previous docker-compose command.
+    
