@@ -20,8 +20,7 @@ npm init -y
 - **Install Express:**
   
   Install the Express framework, which will help you set up a simple server:
-  
-  ```
-  npm install express
 
+```
+npm install express
 ```
