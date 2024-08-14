@@ -60,7 +60,9 @@ app.listen(port, () => {
 - **Create a Dockerfile:**
 
     To Dockerize your Node.js application, follow these steps:
-    - In your project directory, create a file named Dockerfile with the following content:
+  
+    - **Write Dockerfile:**
+      In your project directory, create a file named Dockerfile with the following content:
 
 ```
 
@@ -77,21 +79,21 @@ EXPOSE 3000
 CMD ["npm", "start"]
 ```
 
-- **Build the Docker Image:**
+  - **Build the Docker Image:**
+    
+      In your project directory, build the Docker image using the following command:
+    
+   ```
+    docker build -t hello-world-app .
+  ```
+  - **Run the Docker Container:**
+    
+      Once the image is built, run a container using the following command:
   
-    In your project directory, build the Docker image using the following command:
-  
- ```
-  docker build -t hello-world-app .
-```
-- **Run the Docker Container:**
-  
-    Once the image is built, run a container using the following command:
-
-```
-  docker run -p 3000:3000 hello-world-app
-```
-  
-  - **Access the Application:**
-  
-      Open a web browser and navigate to http://localhost:3000. You should see "Hello, World!" displayed, just as you did before Dockerizing the application.
+  ```
+    docker run -p 3000:3000 hello-world-app
+  ```
+    
+    - **Access the Application:**
+    
+        Open a web browser and navigate to http://localhost:3000. You should see "Hello, World!" displayed, just as you did before Dockerizing the application.
