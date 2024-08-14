@@ -6,6 +6,19 @@ This is a simple Node.js application that displays "Hello World". The applicatio
 
 - **Docker**: Make sure Docker is installed on your machine. You can download Docker from [Docker's official website](https://www.docker.com/get-started).
 
+```
+_## Docker Compose
+
+You can clone the reposritory and run the application using:
+    
+    ```
+     docker compose -f docker-compose.yaml up 
+
+    ```
+    _
+```
+
+
 ## Getting Started
 
 - **Initialize a New Node.js Project:**
@@ -118,6 +131,10 @@ app.listen(port, () => {
       docker push<user_name>/<new_image_name>:<new_version>
       ```
 
+## Docker Compose
 
+  - Create a docker-compose.yaml file:
+
+  - Now anyone can get started with your image using a single command:
     
 
