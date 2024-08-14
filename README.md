@@ -55,4 +55,24 @@ app.listen(port, () => {
 
   ```
   npm start
+  ```
+
+- **Create a Dockerfile:**
+
+    To Dockerize your Node.js application, follow these steps:
+    - In your project directory, create a file named Dockerfile with the following content:
+
+```
+
+FROM node:18
+
+WORKDIR /app
+
+COPY . .
+
+RUN npm install
+
+EXPOSE 3000
+
+CMD ["npm", "start"]
 ```
