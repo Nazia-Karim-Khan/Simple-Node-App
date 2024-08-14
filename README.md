@@ -5,18 +5,11 @@ This is a simple Node.js application that displays "Hello World". The applicatio
 ## Prerequisites
 
 - **Docker**: Make sure Docker is installed on your machine. You can download Docker from [Docker's official website](https://www.docker.com/get-started).
-  
-```
-You can clone the reposritory and run the application using:
-    
-    ```
-     docker compose -f docker-compose.yaml up 
 
-    ```
-```
-<p><em>You can clone the repository and run the application using:</em></p>
 
-<pre><code>docker compose -f docker-compose.yaml up</code></pre>
+<pre><p><em>You can clone the repository and run the application using:</em></p>
+
+<code>docker compose -f docker-compose.yaml up</code></pre>
 
 
 
