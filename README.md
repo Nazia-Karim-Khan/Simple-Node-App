@@ -76,3 +76,22 @@ EXPOSE 3000
 
 CMD ["npm", "start"]
 ```
+
+- **Build the Docker Image:**
+  
+    In your project directory, build the Docker image using the following command:
+  
+ ```
+  docker build -t hello-world-app .
+```
+- **Run the Docker Container:**
+  
+    Once the image is built, run a container using the following command:
+
+```
+  docker run -p 3000:3000 hello-world-app
+```
+  
+  - **Access the Application:**
+  
+      Open a web browser and navigate to http://localhost:3000. You should see "Hello, World!" displayed, just as you did before Dockerizing the application.
